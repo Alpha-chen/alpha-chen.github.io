@@ -344,9 +344,10 @@
                 <span>[Untitled Post]</span>
         </a>
         <div class="abstract-content">
-            Python分布式进程面对多任务需求的时候，thread和process都能实现相应的功能。但更推荐使用process，因为process更稳定。并且process可以在多台机器上实现分布式的应用，而多线程thread只能在一台机器上使用多个CPU。
+            
+Python分布式任务处理Python分布式进程面对多任务需求的时候，thread和process都能实现相应的功能。但更推荐使用process，因为process更稳定。并且process可以在多台机器上实现分布式的应用，而多线程thread只能在一台机器上使用多个CPU。
 那在Python中我们该如何使用分布式进程完成我们的需求？Python提供了multiprocessing模块。该模块不仅提供实现多进程process，其中子模块manager还支持将多进程分布到多台机器上。
-一台机器充当任务的调度者(master进程),将任务分发到不同的进程中，通过网络通信将任务分发到不同的机器上。这里我们不需要知道ma...
+一台机器充当任务的调度者(master进程),将任务分发到不同的进程中，通过网络通信将任务分发到不同的机...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
